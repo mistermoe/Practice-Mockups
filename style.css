@@ -14,7 +14,7 @@ body {
 /* HEADER STYLING*/
 .header {
   /*margin-top: 25px;*/
-  padding: 40px 20px 75px 10px;
+  padding: 35px 20px 75px 0px;
   position:relative;
 }
 
@@ -34,6 +34,7 @@ div.header ul li {
   display:inline;
   margin-left: 30px;
   text-transform: uppercase;
+  font-size:0.88em;
 }
 
 .login-form {
@@ -64,7 +65,6 @@ div.header ul li {
 .widget {
   width: 448px;
   padding: 20px 5px 5px 10px;
-  border: 1px dotted red;
   background-color: white;
 }
 
@@ -79,7 +79,6 @@ div.header ul li {
     padding: 15px 30px 10px;
     color: #a0a0a0;
   }
-
 
 .current-task {
   padding: 30px;
@@ -116,9 +115,68 @@ div.header ul li {
   .cta p {
     color: white;
     font-size: 2.5em;
+    margin-bottom:15px;
   }
 
+button.signup {
+  background-image: linear-gradient(to bottom,#8dcc35,#47a204);
+  border:none;
+  padding:15px 37px;
+  color:white;
+  font-size:20px;
+  border-radius: 3px;
+}
 
+button.tour {
+  border:none;
+  padding: 15px 37px;
+  color: #6bd017;
+  background: rgba(24,24,24,.7);
+  font-size:20px;
+  border-radius: 3px;
+}
+
+.toggl-lovers .container {
+  text-align:center;
+  padding:30px 0;
+}
+
+.toggl-lovers .container img {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.footer {
+  border-top: 1px solid #e6e6e6;
+}
+
+.footer ul li {
+  list-style-type: none;
+  display:inline;
+  color: #BBB;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.footer ul li:first-child {
+  color: #000;
+}
+
+.footer a {
+  clear:left;
+  margin:0;
+  color:#4aA507;
+  text-decoration: none;
+  border-bottom: 1px solid #4aA507;
+  margin-left: 20px;
+  padding-bottom: 2px;
+}
+
+.teamweek {
+  margin-top: 16px;
+  text-transform: uppercase;
+  font-size: .88em;
+}
 /* HELPER CLASSES */
 
 .container {
